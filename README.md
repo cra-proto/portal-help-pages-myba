@@ -1,6 +1,6 @@
-# portal-help-pages-myba COP
+# Portal Help Pages Project: My Business Account
 
-*description of the COP*
+*For this project, DDPD is providing guidance to our partners in ABSB on how to manage portal help pages moving forward.*
 
 **COP timeframe** 2026-03-02 - 2026-06-08
 
