@@ -1,0 +1,139 @@
+---
+layout: default
+title: "Reply to PIER"
+description: "Reply to PIER"
+subject: "Economics and Industry;Taxes"
+keywords: ""
+auth:
+  type: "contextual"
+  label: "Sign in"
+  labelExtended: "CRA sign in"
+  link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html"
+altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-numeriques-entreprises/dossier-entreprise/aide-repondre.html"
+dateModified: 2018-02-12
+dateIssued: 2018-01-11
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Taxes"
+    link: "https://www.canada.ca/en/services/taxes.html"
+  - title: "Digital services"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services.html"
+  - title: "Digital services for Businesses"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses.html"
+feedbackData:
+  section: "Reply to PIER"
+notedlinks:
+  - title: "Reply to PIER"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/help-reply.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/portal-help-pages-myba/index.html"
+---
+
+
+<nav role="navigation">
+    <h2>On this page</h2>
+    <ul>
+        <li><a href="#toc0">Deficiencies and explanations</a></li>
+        <li><a href="#toc1">Reply summary</a></li>
+        <li><a href="#toc2">Confirmation of receipt</a></li>
+    </ul>
+</nav>
+<script type="text/javascript">
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+        var hTags = ['H2','H2','H2'];
+        var hText = ['Deficiencies and explanations','Reply summary','Confirmation of receipt'];
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+    if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+    			if(!tags[j].id) {
+    				tags[j].setAttribute('id', 'toc'+i);
+    				break;
+    			}
+                        }
+                    }
+                }
+            }
+        }
+    };
+</script>
+<h2>Deficiencies and explanations</h2>
+<h3>Slip ### of ###</h3>
+<p>This section displays the employee information and deficiency information for the given slip.</p>
+<h3>Employee information</h3>
+<p>This table displays the identification information for the employee.</p>
+<h3>Deficiency information</h3>
+<p>This table displays details of the earnings, deductions reported, deductions required, and deficiencies from the given slip. New amounts can be entered for employment income (box 14), pensionable earnings (box 26), insurable earnings (box 24), CPP deductions reported (box 16), and EI deductions reported (box 18).</p>
+<h3>Explanation code</h3>
+<p>This drop-down contains a list of common reporting errors. An explanation code <strong>must</strong> be selected if new amounts are entered in the deficiency information table.</p>
+<h3>Explanation</h3>
+<p>If “(12) Other” is selected from the explanation code drop-down box, a text box will be displayed to enter details of the explanation for the deficiency. The text box is limited to 154 characters and can be left blank.</p>
+<p>Selecting the “Clear changes” button will reset all changes (new amounts, explanation text) to blank.</p>
+<p>Selecting the “View reply summary” button will display the Reply summary page.</p>
+<p>Selecting the “Submit reply” button displays the Reply summary page to allow the reply to be reviewed and confirmed.</p>
+<p>Selecting the “PIER overview” page displays the PIER overview page.</p>
+<h2>Reply summary</h2>
+<h3>Employee information</h3>
+<p>This table displays the identification information for the employee.</p>
+<h3>Deficiency information</h3>
+<p>This table displays details of the earnings, deductions reported, deductions required, and deficiencies from the given slip. New amounts can be entered for employment income (box 14), pensionable earnings (box 26), insurable earnings (box 24), CPP deductions reported (box 16), and EI deductions reported (box 18).</p>
+<h3>Explanation code</h3>
+<p>This drop-down contains a list of common reporting errors. An explanation code <strong>must</strong> be selected if new amounts are entered in the deficiency information table.</p>
+<h3>Explanation</h3>
+<p>If “(12) Other” is selected from the explanation code drop-down box, a text box will be displayed to enter details of the explanation for the deficiency. The text box is limited to 154 characters and can be left blank.</p>
+<h3>Person to contact, area code, telephone number, extension</h3>
+<p>It is mandatory to enter the name of a business contact and telephone number.</p>
+<p>Selecting the “Confirm reply” button submits the PIER reply to the CRA and displays the Confirmation of reply page.</p>
+<p>Selecting the “View more slips” button returns to the Employee listing page.</p>
+<p>Selecting the “Back” button will erase any changed data, return to the previous page in the browser history and will not submit the reply to CRA. A warning message will be displayed.</p>
+<h2>Confirmation of receipt</h2>
+<h3>Employee information</h3>
+<p>This table displays the identification information for the employee.</p>
+<h3>Deficiency information</h3>
+<p>This table displays details of the earnings, deductions reported, deductions required, and deficiencies from the given slip. It lists both the amounts reported and the amounts from the PIER reply.</p>
+<h3>Explanation code</h3>
+<p>This is the code that was selected to explain the deficiency.</p>
+<h3>Explanation</h3>
+<p>If “(12) Other” was selected as the explanation code, the text entered as the explanation will be displayed.</p>
+<h3>Person to contact</h3>
+<p>The name and telephone number of the person entered as the contact will be displayed.</p>
+<p>Selecting the “PIER overview” button displays the PIER overview page.</p>
+<p>Selecting the “Save” button will save the entered explanations and the confirmation number in pdf format.</p>
+<p>Selecting the “End session” button will close the PIER session without saving changes and display the My Business Account welcome page.</p>
+
+<script>
+
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+
+        var hTags = ['H2','H2','H2'];
+        var hText = ['Deficiencies and explanations','Reply summary','Confirmation of receipt'];
+
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+                
+				if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+							if(!tags[j].id) {
+								tags[j].setAttribute('id', 'toc'+i);
+								break;
+							}
+                        }
+                    }
+                }
+            }
+        }
+
+    };
+
+
+</script>
+<script>_satellite.pageBottom();</script>
