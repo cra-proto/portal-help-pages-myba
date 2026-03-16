@@ -1,0 +1,125 @@
+---
+layout: default
+title: "PIER on My Business Account"
+description: "This page displays a list of PIER cases on file for the payroll deduction account"
+subject: "Economics and Industry;Taxes"
+keywords: ""
+auth:
+  type: "contextual"
+  label: "Sign in"
+  labelExtended: "CRA sign in"
+  link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html"
+altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-numeriques-entreprises/dossier-entreprise/aide-rgap.html"
+dateModified: 2018-02-12
+dateIssued: 2018-01-11
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Taxes"
+    link: "https://www.canada.ca/en/services/taxes.html"
+  - title: "Digital services"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services.html"
+  - title: "Digital services for Businesses"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses.html"
+feedbackData:
+  section: "PIER on My Business Account"
+notedlinks:
+  - title: "PIER on My Business Account"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/help-pier.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/portal-help-pages-myba/index.html"
+---
+
+
+<nav role="navigation">
+    <h2>On this page</h2>
+    <ul>
+        <li><a href="#toc0">PIERs cases</a></li>
+        <li><a href="#toc1">PIER summary</a></li>
+        <li><a href="#toc2">Employee listing</a></li>
+    </ul>
+</nav>
+<script type="text/javascript">
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+        var hTags = ['H2','H2','H2'];
+        var hText = ['PIERs cases','PIER summary','Employee listing'];
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+    if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+    			if(!tags[j].id) {
+    				tags[j].setAttribute('id', 'toc'+i);
+    				break;
+    			}
+                        }
+                    }
+                }
+            }
+        }
+    };
+</script>
+<h2>PIERs cases</h2>
+<h3>General information</h3>
+<p>This page displays a list of PIER cases on file for the payroll deduction account.</p>
+<h3>Reporting year</h3>
+<p>Select a reporting year to view only one specific year at a time. Otherwise, all reporting years will be displayed.</p>
+<h3>PIERs on file</h3>
+<p>This table displays a list of PIER cases we have on file for the selected reporting year, or all years if no reporting year is selected.</p>
+<ol class="lst-lwr-alph">
+    <li>Selecting a link under “Case number” will link to the PIER summary page of the selected case.</li>
+    <li>Selecting a link under “Download now” will download the selected case file.</li>
+    <li>Selecting a link under “Reply” will link to the Reply employee listing page of the selected case.</li>
+</ol>
+<p>Selecting the “Back” button will return to the previous page in the browser history.</p>
+<h2>PIER summary</h2>
+<h3>Case information</h3>
+<p>This table displays the tax year and the case number of the selected PIER case.</p>
+<h3>Calculated deficiencies for tax year YYYY</h3>
+<p>These are the amounts we used to calculate the CPP and EI deficiencies for this case.</p>
+<p>Selecting the “Back” button will return to the previous page in the browser history.</p>
+<p>Selecting the “View employee listing” will display the Employee listing page.</p>
+<p>Selecting the “Reply to PIER” page will display the Reply to PIER web form for the selected case.</p>
+<h2>Employee listing</h2>
+<h3>Slip ### of ###</h3>
+<p>This section displays the employee information and deficiency information for the given slip.</p>
+<h3>Employee information</h3>
+<p>This table displays the identification information for the employee.</p>
+<h3>Deficiency information</h3>
+<p>This table displays details of the earnings, deductions reported, deductions required, and deficiencies from the given slip.</p>
+<p>Selecting the “View PIER summary” button will display the PIER summary page.</p>
+
+<script>
+
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+
+        var hTags = ['H2','H2','H2'];
+        var hText = ['PIERs cases','PIER summary','Employee listing'];
+
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+                
+				if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+							if(!tags[j].id) {
+								tags[j].setAttribute('id', 'toc'+i);
+								break;
+							}
+                        }
+                    }
+                }
+            }
+        }
+
+    };
+
+
+</script>
+<script>_satellite.pageBottom();</script>
