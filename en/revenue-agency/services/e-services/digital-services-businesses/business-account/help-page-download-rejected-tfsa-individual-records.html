@@ -1,0 +1,870 @@
+---
+layout: default
+title: "Help page – Download rejected TFSA individual records"
+description: "Help page – Download rejected TFSA individual records"
+subject: "Economics and Industry;Taxes"
+keywords: "Canada Revenue Agency"
+auth:
+  type: "contextual"
+  label: "Sign in"
+  labelExtended: "CRA sign in"
+  link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html"
+altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-numeriques-entreprises/dossier-entreprise/page-aide-telecharger-dossiers-individuels-rejetes-celi.html"
+dateModified: 2017-02-14
+dateIssued: 2009-12-18
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Taxes"
+    link: "https://www.canada.ca/en/services/taxes.html"
+  - title: "Digital services"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services.html"
+  - title: "Digital services for Businesses"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses.html"
+feedbackData:
+  section: "Help page – Download rejected TFSA individual records"
+notedlinks:
+  - title: "Help page – Download rejected TFSA individual records"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/help-page-download-rejected-tfsa-individual-records.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/portal-help-pages-myba/index.html"
+---
+
+
+<p>The definition for each of the column headings of the report is as follows:</p>
+<p><strong>TFSA contract/account number:</strong> This is the contract/account number which was provided in the individual record.</p>
+<p><strong>Error code and descriptive message:</strong> This is the error that was detected upon validation of the data. For a complete list of these possible errors, please see below.</p>
+<p><strong>TFSA ID:</strong> This is the TFSA identification number that was provided to you by the CRA following your application for a Tax-Free Savings Account Identification Number.</p>
+<p><strong>Submission number:</strong> This is the number the CRA provided you on the "Confirmation of receipt" page, following the submission of your file(s).</p>
+<p><strong>Summary sequence number:</strong> This is the sequence number in which the return was provided in the submission.</p>
+<p><strong>Slip type code:</strong></p>
+<ul>
+    <li>Original: Indicates that the slip type code "O" was provided on the individual record</li>
+    <li>Amended: Indicates that the slip type code "A" was provided on the individual record</li>
+    <li>Cancelled: Indicates that the slip type code "C" was provided on the individual record</li>
+</ul>
+<p><strong>Reporting year</strong>: This is the year for which was reported in the TFSA return and the not the year the return was filed.</p>
+<p><strong>Date submitted</strong>: This is the date that the individual record (as part of a return) was submitted to the CRA.</p>
+<p><strong>Notes</strong>:</p>
+<ul>
+    <li>The rejected records identified in this report are reflective of what we currently have in our databases. You may have already submitted amended records to correct these records and we may not have yet processed these amendments. Please do not refile a duplicate amended record.</li>
+    <li>The report can only display a maximum of 4000 rejected records. If your list exceeds this maximum, you will be prompted by the system. In this event, you must correct these records and then return to the service at a later date to download the new list of rejected records.</li>
+</ul>
+<p>The complete list of possible error codes that can be displayed in the report are as follows:</p>
+<div class="table-responsive section">
+    <table class="table table-bordered table-responsive">
+        <caption>
+            <strong>Help Guide for Rejected Records</strong>
+        </caption>
+        <tbody>
+            <tr>
+                <th scope="col"><strong>Error number</strong></th>
+                <th scope="col"><strong>Error description</strong></th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <p><strong>TFSA holder SIN is missing</strong></p>
+                    <p>The TFSA holder’s social insurance number (SIN) has not been entered on the record.</p>
+                    <p>Review your client’s documents and submit an amended record with the required SIN.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <p><strong>TFSA holder SIN &nbsp;does not meet numerical verification standards</strong></p>
+                    <p>The TFSA holder’s social insurance number (SIN) entered on the record is not valid as it does not pass the Modulus 10 (Mod 10) check digit formula.</p>
+                    <p>Review your client’s documents and submit an amended record with the valid SIN.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <p><strong>TFSA holder surname is missing</strong></p>
+                    <p>The TFSA holder’s surname has not been entered on the record.</p>
+                    <p>Review your client’s documents and submit an amended record with the required surname.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <p><strong>TFSA holder date of birth is missing</strong></p>
+                    <p>The TFSA holder’s date of birth (DOB) has not been entered on the record.</p>
+                    <p>Review your client’s documents and submit an amended record with the required DOB.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>
+                    <p><strong>Calendar year-end FMV is missing</strong></p>
+                    <p>The calendar year-end fair market value (FMV) has not been reported on the record.</p>
+                    <p>Review your client’s documents and submit an amended record with the required FMV.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>
+                    <p><strong>Calendar year-end FMV cannot be a negative amount</strong></p>
+                    <p>The TFSA calendar year-end fair market value (FMV) reported on the record must be positive. It must be reported for each year the account is open even if there is no activity throughout the year and/or the value is $0.00.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct FMV.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>
+                    <p><strong>Transaction date is entered but no corresponding transaction amount is reported</strong></p>
+                    <p>A transaction date is entered on the record; however, there is no transaction amount reported for that date in one of the following fields:</p>
+                    <ul class="lst-spcd">
+                        <li>contribution amount</li>
+                        <li>withdrawal amount</li>
+                        <li>non-qualified investment FMV or</li>
+                        <li>marital breakdown Transfer In/Out field</li>
+                    </ul>
+                    <p>Review your client’s documents and submit an amended record with the required amount or remove the transaction date, as applicable.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>
+                    <p><strong>TFSA contribution reported cannot be a negative amount</strong></p>
+                    <p>The TFSA contribution amount reported on the record must be positive.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct positive contribution amount.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>
+                    <p><strong>TFSA withdrawal reported &nbsp;cannot be a negative amount</strong></p>
+                    <p>The TFSA withdrawal amount reported on the record must be positive.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct positive withdrawal amount.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>
+                    <p><strong>TFSA holder date of birth is not entered in proper YYYY-MM-DD format</strong></p>
+                    <p>The TFSA holder’s date of birth (DOB) indicated on the record is not entered in the correct YYYY-MM-DD format.</p>
+                    <p>The DOB must be a valid date entered in numeric format. &nbsp;An example of an invalid date would be 2030-02-30.</p>
+                    <p>Review your client’s documents and submit an amended record with the DOB in the correct format.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>
+                    <p><strong>TFSA holder date of death is not entered in proper YYYY-MM-DD format</strong></p>
+                    <p>The TFSA holder’s date of death (DOD) indicated on the record is not entered in the correct YYYY-MM-DD format. The DOD must be a valid date in numeric format. An example of an invalid date would be 2008-02-30.</p>
+                    <p>Review your client’s documents and submit an amended record with the DOD in the correct format.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>
+                    <p><strong>TFSA close date is not in the proper YYYY-MM-DD format</strong></p>
+                    <p>The closed date on the record is not entered in correct YYYY-MM-DD format. The closed date must be a valid date entered in numeric format.&nbsp;</p>
+                    <p>Review your client’s documents and submit an amended record with a valid closed date.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>
+                    <p><strong>Transaction amount is reported but no corresponding transaction date is entered</strong></p>
+                    <p>A transaction amount is reported on the record in one of the following fields, however, there is no corresponding transaction date:</p>
+                    <ul class="lst-spcd">
+                        <li>contribution amount</li>
+                        <li>withdrawal amount</li>
+                        <li>non-qualified investment FMV or</li>
+                        <li>marital breakdown Transfer In/Out</li>
+                    </ul>
+                    <p>&nbsp;Review your client’s documents and submit an amended record with the required transaction date or remove the transaction amount, if applicable.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>
+                    <p><strong>Transaction &nbsp;date is not entered in proper &nbsp;YYYY-MM-DD format</strong></p>
+                    <p>The transaction date on the record is not entered in the correct YYYY-MM-DD format.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct transaction date.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>
+                    <p><strong>TFSA holder date of death reported but TFSA holder FMV at &nbsp;time of death is missing</strong></p>
+                    <p>The TFSA holder’s date of death (DOD) was entered on the record but the fair market value (FMV) at the time of death has not been reported.</p>
+                    <p>Review your client’s documents and submit an amended record with the required FMV, even if $0.00. If your client is not deceased, submit an amended record to remove the DOD.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>
+                    <p><strong>TFSA holder &nbsp;FMV at time of death is invalid – must be entered in numeric format</strong></p>
+                    <p>The TFSA holder’s fair market value (FMV) at the time of death entered on the record is invalid. The FMV must be reported in numeric format (maximum of 11 numeric characters; dollars and cents).</p>
+                    <p>Review your client’s documents and submit an amended record with the correct FMV.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>
+                    <p><strong>TFSA holder FMV at time of death cannot be a negative amount</strong></p>
+                    <p>The TFSA holder’s fair market value (FMV) at the time of death amount must be positive.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct positive FMV, even if $0.00.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>
+                    <p><strong>TFSA holder FMV at time of death reported but the holder &nbsp;date of death is missing</strong></p>
+                    <p>The TFSA holder’s fair market value (FMV) at the time of death was entered on the record, but the DOD has not been entered. Reporting $0.00 in the DOD FMV field is considered an entry.&nbsp;</p>
+                    <p>Review your client’s documents and submit an amended record with the required DOD. If your client is not deceased, submit an amended record removing the DOD FMV.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>
+                    <p><strong>New TFSA account this year Indicator&nbsp; must be "Y" or "N"</strong></p>
+                    <p>The value entered in the ‘new TFSA account this year for this holder’s field’ is invalid. A valid entry is “Y” or “N”.</p>
+                    <p>Review and submit an amended record with a valid entry.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>
+                    <p><strong>TFSA account &nbsp;closed indicator must be "Y" or "N"</strong></p>
+                    <p>The value entered for ‘TFSA account closed this year indicator’ is invalid. A valid entry is “Y” or “N”.</p>
+                    <p>&nbsp;Review and submit an amended record with a valid entry.</p>
+                    <p>Note: If the original TFSA holder dies and the account is taken over by a successor holder, the account is not considered to be closed in the year, unless the successor holder actually chooses to close the account.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>
+                    <p><strong>TFSA close date must be blank if account closed indicator is "N"</strong></p>
+                    <p>The TFSA account closed this year indicator is “N” but there is a closed date entered on the record.</p>
+                    <p>Review and submit an amended record with no closed date or change the indicator to “Y”.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>
+                    <p><strong>TFSA account closed indicator equals “Y” but close date is missing</strong></p>
+                    <p>The TFSA account closed this year indicator is “Y” but there is no closed date entered on the record.</p>
+                    <p>Review and submit an amended record with the closing date or change the indicator to “N”.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>
+                    <p><strong>Successor holder account indicator must be "Y" or "N"</strong></p>
+                    <p>The successor holder account indicator is invalid. A valid entry is “Y” or “N”. Review and submit an amended record with a valid entry.</p>
+                    <p>If the indicator is ‘Y’, the social insurance number (SIN), surname, and date of death (DOD) of the deceased holder must be entered on the record. If the indicator is “N”, the SIN, surname, and DOD of the deceased holder’s data elements must not be entered on the record.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>
+                    <p><strong>Surname of deceased holder on a successor holder account is missing</strong></p>
+                    <p>The deceased holder’s surname for a successor holder’s account is not entered on the record. This information is required if “Y” is indicated in the successor holder account indicator.</p>
+                    <p>Review your client’s documents and submit an amended record with the required surname of the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>
+                    <p><strong>SIN of deceased holder on a successor holder account is in invalid format - must be numeric</strong></p>
+                    <p>The deceased holder’s social insurance number (SIN) for a successor holder account is invalid. The SIN must be numeric (9 numbers).</p>
+                    <p>Review your client’s documents and submit an amended record with the valid social insurance number (SIN) of the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>
+                    <p><strong>TFSA deceased holder date of death on a successor holder account is not valid or not entered in numeric format</strong></p>
+                    <p>The deceased holder’s date of death (DOD) entered for a successor holder’s account is invalid. The date must be a valid date entered in numeric format.</p>
+                    <p>Review your client’s documents and submit an amended record with the valid DOD for the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>
+                    <p><strong>TFSA deceased holder date of death cannot be greater than the reporting year</strong></p>
+                    <p>The deceased holder’s date of death (DOD) for a successor holder account cannot be greater than the reporting year. &nbsp;A succession can only take place in the year of death.</p>
+                    <p>Review the year of death.&nbsp; If it’s not the same as the reporting year, submit an amended record for the original holder. Confirm the succession data. If not already submitted, file an original record for the successor in the actual year of death.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>
+                    <p><strong>Transaction date cannot be greater than the close date of the account</strong></p>
+                    <p>The transaction date is greater than the closed date. The transaction date must be less than or equal to the closed date of the account. &nbsp;</p>
+                    <p>The term “closure” in the context of an account means that the account no longer exists.&nbsp; A closed account can no longer receive contributions either from the holder [capital contributions] or from the financial institution [interest on deposit] or from stocks in which account funds had been invested [dividends].&nbsp; &nbsp;</p>
+                    <p>Review your client’s documents and, if necessary, submit an amended record with the correct transaction date and/or closed date.</p>
+                    <p>Otherwise, any contributions made after the closing date should be removed from the account as they do not qualify for the tax-free treatment allowed by a TFSA. &nbsp;Normal taxation rules apply to any income earned (including gains) that is taxable (unsheltered).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>
+                    <p><strong>Transaction date is not within the reporting period</strong></p>
+                    <p>The transaction date is not within the reporting period/year. The year must not be prior to 2009 or greater than the reporting year on the record.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct transaction date.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>
+                    <p><strong>TFSA contribution or withdrawal amount reported is not in the correct format – must be numeric</strong></p>
+                    <p>The transaction amount reported on the record must be in numeric format.</p>
+                    <p>Review and submit an amended record with the transaction amount in numeric format.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>
+                    <p><strong>TFSA contribution or withdrawal amount reported cannot be negative</strong></p>
+                    <p>The transaction amount reported on the record must be positive.</p>
+                    <p>Review and submit an amended record with a positive transaction amount.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>
+                    <p><strong>Surname of former spouse for marriage breakdown transfer in/out transaction is missing</strong></p>
+                    <p>The surname of the former spouse for marriage breakdown (MB) transfer in/out transaction must be entered if either MB transfer in fair market value (FMV) or MB transfer out FMV is present.</p>
+                    <p>Review and submit an amended record with the surname of the former spouse.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>
+                    <p><strong>Deceased holder information is entered but successor holder account indicator is "N"</strong></p>
+                    <p>The deceased holder’s information (surname, SIN, and date of death) need not be entered on the record if the successor holder’s account indicator is “N”.</p>
+                    <p>Review entries and submit an amended record without the entries for the deceased holder or change the entry in the successor holder account indicator to ‘Y’.&nbsp;</p>
+                    <p>Note: a succession can only take place in the year of death.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>
+                    <p><strong>Original record already sent for this reporting year –&nbsp; amendment required</strong></p>
+                    <p>An original record for the same contract and reporting period already exists and the new record submitted is not 100% duplicate of the first record; two original records (type code O) were filed, however, they are not identical.</p>
+                    <p>Submit an amended record (type code A) to report any changes.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>
+                    <p><strong>Date of birth reported indicates the TFSA holder was not 18 or older when TFSA was opened – account is invalid</strong></p>
+                    <p>The TFSA election is considered invalid and cannot be registered as the account holder was less than 18 years old when the TFSA account was opened.</p>
+                    <ol class="lst-spcd">
+                        <li>Contact your client to confirm that they provided you with their correct date of birth (DOB), which they filed with the CRA. &nbsp;If they confirm that the information on the&nbsp; record&nbsp; transmitted was correct, advise your client to contact us at: 1<strong>-800-959-8281</strong> (English) or <strong>1-800-959-7383</strong> (French). Individuals should identify themselves to the agent and indicate that they are calling because they are a TFSA holder and were advised by their financial institution to confirm/update their DOB with the CRA.</li>
+                        <li>Otherwise, submit a cancel record for this contract and TFSA ID.</li>
+                        <li>If a record has error codes 36 and/or 37 in combination with error code 72, the problem is usually that the incorrect SIN has been entered on the record. In this case, review your client’s documents and submit an amended record with the correct SIN for this particular client.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>
+                    <p><strong>TFSA holder surname does not match CRA records. Ensure that the surname showing on the record matches to the SIN and DOB.</strong></p>
+                    <p>Surname of the holder does not match CRA records. Review your client’s documents and submit an amended record with the correct surname.</p>
+                    <p>Note: If a record has error codes 36 and/or 37 in combination with error code 72, the problem is usually that the incorrect SIN has been entered on the record.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>
+                    <p><strong>Date of birth reported indicates the TFSA deceased holder in an election year was not 18 or older when TFSA was opened – account is invalid</strong></p>
+                    <p>The TFSA election is invalid and cannot be registered as the deceased holder was less than 18 when the TFSA account was opened. Contact the deceased holder’s authorized representative to verify the date of birth (DOB).&nbsp;</p>
+                    <p>Follow the instructions in Error Code 36 to request a change to the deceased holder’s &nbsp;DOB , if necessary,&nbsp; or submit a cancel record if the deceased holder was less than 18 when the TFSA account was opened.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>
+                    <p><strong>Surname of deceased holder in an election year does not match CRA records</strong></p>
+                    <p>The deceased holder’s surname on the record does not match the surname on CRA records. Review the surname, social insurance number (SIN), and date of birth (DOB) for the deceased holder. Submit an amended record, as required.</p>
+                    <p>Note: If a record has error codes 38 and/or 39 in combination with error code 78, the problem is usually that the incorrect SIN has been entered on the record.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>
+                    <p><strong>TFSA deceased holder date of death on a successor holder account does not match CRA records</strong></p>
+                    <p>The date of death (DOD) shown on the record for the deceased holder in a succession does not match to the DOD on CRA records.</p>
+                    <p>Review the deceased holder’s DOD.</p>
+                    <p>If entered incorrectly, submit an amended record with the correct DOD.</p>
+                    <p>If the CRA has the incorrect DOD on file, request that the successor of the account contact the CRA to have the correct DOD updated.&nbsp; Once the DOD has been updated contact the TFSA Processing Unit to notify them that the DOD has been corrected and now agrees with the date on the record.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>
+                    <p><strong>TFSA account closed prior to date of death – succession is not possible</strong></p>
+                    <p>This account cannot have a successor holder as the account has been closed prior to the date of death (DOD) of the holder.</p>
+                    <p>The DOD on the record submitted matches to the DOD on CRA records, however, the record indicates succession and also a date of closing for the account that is before the DOD.</p>
+                    <p>If the account has been closed before the DOD, succession is not possible.</p>
+                    <p>Review your client’s documents.&nbsp; If necessary, submit an amended record reflecting the correct closing date.&nbsp; Otherwise, if this is not a successor holder account, submit an amended record under the deceased holder’s social insurance number (SIN) without the succession data.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>
+                    <p><strong>TFSA holder SIN is not in correct format – &nbsp;must be numeric</strong></p>
+                    <p>Invalid TFSA holder social insurance number (SIN). The SIN must be valid and entered in the correct numeric format (9 numbers).</p>
+                    <p>Review your client’s documents and submit an amended record with the correct SIN.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>
+                    <p><strong>SIN of deceased holder on a successor holder account is missing</strong></p>
+                    <p>The deceased holder’s social insurance number (SIN) for a successor holder account has not been entered on the record. This information is required if “Y” is indicated in the successor holder’s account indicator.</p>
+                    <p>Review your client’s documents and submit an amended record with the required SIN of the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>
+                    <p><strong>SIN of deceased holder on a successor holder account does not meet numerical verification standards</strong></p>
+                    <p>The deceased holder’s social insurance number (SIN) entered on the record is not valid as it does not pass the Modulus 10 (Mod 10) check digit formula.</p>
+                    <p>Review your client’s documents and submit an amended record with a valid SIN for the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>
+                    <p><strong>TFSA deceased holder date of death on a successor holder account is missing</strong></p>
+                    <p>The deceased holder’s date of death (DOD) for a successor holder account has not been entered on the record. This information is required if “Y” is indicated in the successor holder account indicator.</p>
+                    <p>Review your client’s documents and submit an amended record with the required DOD of the deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>
+                    <p><strong>TFSA holder SIN not found on CRA records</strong></p>
+                    <p>The social insurance number (SIN) entered on the record has not been found on CRA records.</p>
+                    <p>This could be because the number entered is invalid, has not yet been issued by Service Canada for any individual or has not yet been transmitted to us through the Social Insurance Register (SIR).</p>
+                    <p>Review your client’s documents and:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the correct SIN for the holder or</li>
+                        <li>cancel the record or</li>
+                        <li>contact the TFSA Processing Unit (TPU) to advise that the number is correct and the record should be reprocessed as originally submitted. This could happen in the case where there is a delay in the CRA receiving the information from SIR</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>
+                    <p><strong>TFSA holder SIN invalid – Dependant Identification Number (DIN) is not valid for TFSA – Cancel contract or amend with a valid SIN</strong></p>
+                    <p>A dependant identification number (DIN) is invalid for TFSA and was entered on the record instead of a valid social insurance number (SIN).</p>
+                    <p>A dependant identification number (DIN) is assigned to every child and is used for the Children’s special allowances (CSA), the Canada child benefit (CCB) and, for 2001 and subsequent base years, the goods and services tax/harmonized sales tax credit program. It is not a valid number for TFSA purposes.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN or</li>
+                        <li>cancel the record<strong></strong></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>
+                    <p><strong>TFSA holder SIN invalid – Individual Tax Number (ITN) is not valid for TFSA – Cancel contract or amend with a valid SIN</strong></p>
+                    <p>An individual tax number (ITN) is invalid for TFSA and was entered on the record instead of a valid social insurance number (SIN).</p>
+                    <p>An ITN is a nine (9) digit number beginning with “08” or “09”. It is assigned by the CRA to non-residents or international students who are unable to obtain a SIN, but are required to file a Canadian tax return.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN or</li>
+                        <li>cancel the record<strong></strong></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>
+                    <p><strong>TFSA holder SIN invalid – a Temporary Tax Number (TTN) is not valid for TFSA</strong></p>
+                    <p>A temporary tax number (TTN) was entered on the record instead of a valid social insurance number (SIN).</p>
+                    <p>A TTN is a nine (9) digit number beginning with “01” or “03”. It is an internal number delivered by the CRA to a taxpayer who resides in Canada for income tax purposes but cannot obtain a SIN.</p>
+                    <p>Note: This error code no longer sets as of September 2012.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>
+                    <p><strong>Invalid SIN for deceased holder – A Dependant Identification Number (DIN) is not valid for TFSA – Cancel contract or amend with a valid SIN.</strong></p>
+                    <p>A dependant identification number (DIN) for the deceased holder on a succession account was entered on the record instead of a valid social insurance number (SIN).</p>
+                    <p>A dependant identification number (DIN) is assigned to every child and is used for the Children’s special allowances (CSA), the Canada child benefit (CCB) and, for 2001 and subsequent base years, the goods and services tax/harmonized sales tax credit program. It is not a valid number for TFSA purposes.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN for the decease or</li>
+                        <li>cancel the record</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>
+                    <p><strong>Invalid SIN for deceased holder – An Individual Tax Number (ITN) is not valid for TFSA – Cancel contract or amend with a valid SIN.</strong></p>
+                    <p>An individual tax number (ITN) for the deceased holder on a succession account was entered on the record instead of a valid social insurance number (SIN).</p>
+                    <p>An ITN is a nine (9) digit number beginning with “08” or “09”. It is assigned by the CRA to non-residents or international students who are unable to obtain a SIN but are required to file a Canadian tax return.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN for the deceased holder or</li>
+                        <li>cancel the record</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>
+                    <p><strong>Unresolved record(s) exist for prior year(s) – Correct and re-submit applicable prior year record(s), as required by the TFSA Processing Unit</strong></p>
+                    <p>A record (original or amendment) was received and referred to the TFSA Processing Unit (TPU) because the latest processed record in any previous year for this contract and TFSA ID is “unresolved” (i.e. has not been accepted).</p>
+                    <p>Review your client’s documents and take action to amend any records rejected for previous years.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>
+                    <p><strong>Record received prior to an original or previously amended record for this particular contract being accepted – Action as required by the TFSA Processing Unit</strong></p>
+                    <p>An amended record was received and referred to the TFSA Processing Unit (TPU) because the original record submitted or a subsequent amendment had not yet been accepted before the new record was submitted<strong>.</strong></p>
+                    <p>Review your client’s documents. No action is required if the new record submitted reflects the correct information.&nbsp; Otherwise, submit an amended record as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>
+                    <p><strong>Record submitted for the election or the succession is changing the identity of the TFSA holder – Action as required by the TFSA Processing Unit</strong></p>
+                    <p>An amended record was received and referred to the TFSA Processing Unit (TPU) that is changing the holder for the election (or succession) in the year that the election (or succession) was created. For example, a 2014 amended record is changing the social insurance number (SIN) of the original holder for an election created in 2014.</p>
+                    <p>Review your client’s documents to determine the correct holder for this contract and TFSA ID.&nbsp; Submit another amended record with the required changes as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>
+                    <p><strong>Changes required to amended record – Action as required by the TFSA Processing Unit</strong></p>
+                    <p>An amended record was received and referred to the TFSA Processing Unit (TPU) that is an amendment of a record which was previously accepted and used in TFSA room calculations.</p>
+                    <p>
+                        The amendment has changes to transaction dates and/or amounts for contributions, withdrawals, or<br />
+                        non-qualified investment fair market value (FMV) amounts.
+                    </p>
+                    <p>Review your client’s documents and submit an amended record if changes are required, as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>
+                    <p><strong>Cancel not permitted. &nbsp;Record(s) exists for subsequent years – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>A cancel record was received and referred to the TFSA Processing Unit (TPU). A record exists that matches with the reporting year, TFSA ID, and contract number, however, the cancel record is not permitted because records (other than an ‘Accepted’ Cancel record) already exist for subsequent filing periods.</p>
+                    <p>If attempting to cancel the contract for an existing election, you must file a cancel record for each year starting with the most current year submitted and working backwards to the year in which the election was established.</p>
+                    <p>If attempting to cancel a record for a specific year, you must cancel all records filed subsequent to this year, first starting with the most current year submitted and working backwards to the particular year.</p>
+                    <p>Review your client’s documents and submit the required cancel records for the applicable subsequent years as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>
+                    <p><strong>Cancel record is for a succession. Attempt to cancel previously accepted record requires a 100% match – Action as required by the TFSA Processing Unit</strong></p>
+                    <p>A cancel record for a succession was received and referred to the TFSA Processing Unit (TPU), however, the cancel record does not match 100% with the most recently accepted record for this contract and filing period.</p>
+                    <p>An example of when this error code could set would be where the cancel record has the same social insurance number (SIN) for both the successor and the deceased holder.</p>
+                    <p>Review your client’s documents and submit an original record with the correct information as agreed upon with the TPU.&nbsp; If necessary, submit a new cancel record once the original record is accepted.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>
+                    <p><strong>SIN on Cancel record does not match SIN on Contract to be cancelled – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>A cancel record was received and referred to the TFSA Processing Unit (TPU) and a record exists that matches the reporting year, TFSA ID, and contract number, however, the social insurance number (SIN) on the cancel record does not match the SIN on the latest accepted record for this contract and filing period.</p>
+                    <p>Review your client’s documents and submit an amended record if changes are required, as agreed upon with the (TPU).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td>
+                    <p><strong>Cancel record received has existing supplementary transactions (such as, exempt or deemed contributions) – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>A cancel record was received and referred to the TFSA Processing Unit (TPU).&nbsp; The account has existing supplementary transactions (i.e. deemed and/or exempt&nbsp;contributions) and this record may affect the contributions that were treated as exempt or deemed contributions on the survivor’s account.</p>
+                    <p>No action is required if the contract is cancelled and the previously allowed deemed and/or exempt contributions reversed. Otherwise, make any required changes to the record, as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>
+                    <p><strong>SIN of the spouse found under the deceased holder account on CRA records does not match to the SIN of the successor reported on the record – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>The successor’s social insurance number (SIN) found on the deceased holder’s identification information shown on CRA records does not match to the successor’s SIN shown on the record received.</p>
+                    <p>This can happen when, for example, the deceased holder’s SIN entered on the record is the same as the successor’s SIN.</p>
+                    <p>Review your client’s documents and submit an amended record reflecting the correct SIN for both the successor and the deceased holder.<strong></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>
+                    <p><strong>Election for deceased holder; SIN on the record is cross-referenced to an Individual Tax Number (ITN) – ITN is not valid for TFSA – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>There is an election for a deceased holder on a succession account and CRA records indicate that the deceased holder’s social insurance number (SIN) is cross-referenced to an individual tax number (ITN). An ITN is not valid for the registration of a TFSA election.</p>
+                    <p>An ITN is a nine (9) digit number beginning with “08” or “09”. It is assigned by the CRA to non-residents or international students who are unable to obtain a SIN but are required to file a Canadian tax return.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN for the deceased holder or</li>
+                        <li>cancel the record</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>62</td>
+                <td>
+                    <p><strong>Deceased holder date of death not on CRA records &nbsp;– Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>There is a succession and the date of death (DOD) is entered on the record for the deceased holder, however, there is no DOD on CRA records.</p>
+                    <p>Review your client’s documents; verify the deceased holder’s information as entered on the record. If the information doesn’t match with the deceased holder for this contract, submit an amended record with any required changes as agreed upon with the TFSA Processing Unit (TPU).&nbsp; Otherwise, take the necessary action to have the CRA records updated to reflect the deceased holder’s DOD.</p>
+                    <p>Note: When a record is referred for error code 62, the problem is often the result of the same name and/or social insurance number (SIN) being entered on the record for both successor holder and deceased holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>
+                    <p><strong>TFSA holder date of death on CRA records precedes date of election – Action as required by the TFSA Processing Unit</strong></p>
+                    <p>This error code is set:</p>
+                    <ul class="lst-spcd">
+                        <li>if a new election is filed and the holder’s date of death (DOD) occurs before 2009 (holder’s &nbsp;DOD is&nbsp; prior to the election)</li>
+                        <li>when a new election is filed for a year that is past the exempt period for the holder’s DOD.&nbsp; If the holder had an existing election in the year of their death, this exempt period extends to December 31 of the year following the holder’s year of death</li>
+                        <li>if there is no established election in the year of the holder's death; there is no exempt period for the holder and the record tries to establish a new election in ANY year following the holder’s year of death</li>
+                        <li>if a new election-succession is filed for a year that is past the deceased holder’s DOD. The exempt period for the holder’s DOD does not apply to the deceased holder in a succession&nbsp;</li>
+                        <li>if a new election-succession is filed and the deceased holder’s DOD occurs before 2009</li>
+                    </ul>
+                    <p>Review your client’s documents and submit an amended/cancel record with any required changes as agreed upon with the TFSA Processing Unit (TPU).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>
+                    <p><strong>TFSA successor holder &nbsp;date of death precedes date of succession – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>There is a succession and CRA records indicate a date of death (DOD) for the successor holder that is before the DOD of the deceased holder; the successor was deceased before the original holder and, therefore, cannot take ownership of the contract.</p>
+                    <p>Review your client’s documents and submit an amended/cancel record with any required changes as agreed upon with the TFSA Processing Unit (TPU).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>
+                    <p><strong>TFSA Holder SIN is different from the SIN used on the original election/succession from previous year(s)– Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>This error code will set in a few different situations involving the change to the identity of the holder including:</p>
+                    <ul class="lst-spcd">
+                        <li>if a record is received that is changing the holder(s) for the election (or succession), and it is not the same year that the election (or succession) was created. For example, a 2015 record is changing the social insurance number (SIN) of the original holder for an election created in 2014</li>
+                        <li>if a record is received that is changing the holder(s) for the election (or succession) in the same year as the election (or succession), and records for this same contract have been accepted in subsequent years.&nbsp; For example, a 2014 record is changing the social insurance number (SIN) of the original holder for an election created in 2014, and records have been accepted in 2015 for this same contract. Note: this does not apply if the latest accepted record in a subsequent year is a cancel record</li>
+                        <li>if a record is received that is removing the closed date from an election, and another election exists for this same contract in a subsequent year. For example, a 2014 record is removing the closed date for an election that was created in 2014 (i.e. the election was opened and closed in 2014), and another election for this same contract was opened in 2015 and</li>
+                        <li>if a record is adding a closed date and the current contract has a closed date in a subsequent year.&nbsp; For example, a 2014 record is received with a closing date, and the current contract for 2015 has a closed date</li>
+                    </ul>
+                    <p>This could happen if the account was opened under the wrong SIN and the financial institution (FI) becomes aware of the discrepancy in the same year or a year subsequent to the election. Generally, the submission of cancels, amendments, or new originals may be required to correct the identity of the holder. The same situation applies if there is an attempt to change the identity of the successor holder.</p>
+                    <p>It could also be that the succession information has not been entered in the year of death. In this case, an amendment to the prior year record would be required to add the succession information and modify the successor holder account<strong> </strong>field to “Y”.</p>
+                    <p>It is important to contact the TFSA Processing Unit (TPU) when trying to resolve this error code. They will work closely with you to help resolve this situation and identify which years should be amended or require cancelling.</p>
+                    <p>When submitting a cancel record, the XML file must show it is a report type code “C,” and must be identical to the last slip submitted (original or amended) for that particular year and contract.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>
+                    <p><strong>New TFSA Account this year indicator equals “Y”; contract currently exists for different SIN or DOB</strong></p>
+                    <p>A record was received indicating a new election, however, an election already exists and there are no unresolved records in previous year(s); the social insurance number (SIN), or date of birth (DOB) is different.</p>
+                    <p>Review your client’s documents and submit an amended record with any required changes.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>
+                    <p><strong>New TFSA account this year indicator equals “N”; existing contract accepted in previous year(s) under different SIN or DOB</strong></p>
+                    <p>A record is received and the “New TFSA account this year for this holder” field on the record is “No” and there is an existing election from a previous period that has a different social insurance number (SIN) or date of birth (DOB). For example, a 2013 record is submitted indicating that it is a new election; however, there is already an accepted record for 2012 for the same contract and TFSA ID with a different SIN or DOB.</p>
+                    <p>Review your client’s documents and submit an amended record with any required changes.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>
+                    <p><strong>Election already established in subsequent year for this TFSA ID and contract number – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>An election was established in a particular year, and then an original record is received for a prior year indicating an election, for the same contract number.</p>
+                    <p>For example, a 2015 record is filed that establishes an election for a particular contract and it is subsequently determined that the election should have been made in 2014. The following steps must be taken to resolve this situation:</p>
+                    <ul class="lst-spcd">
+                        <li>submit a cancel record for 2015</li>
+                        <li>once the 2015 cancel record is accepted, the TFSA Processing Unit (TP) will reprocess the 2014 record in order to establish the election under the correct year and</li>
+                        <li>submit a new original record for 2015 with the “New TFSA account this year for this holder” field as “N”</li>
+                    </ul>
+                    <p>It is important to contact the TPU when trying to resolve this error code. They will work closely with you to help resolve this situation and identify which years must be amended or need cancelling.</p>
+                    <p>Review your client’s documents and determine the correct year for the election.&nbsp; Submit any required amendment or cancel records as agreed upon with the TFSA Processing Unit (TPU).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>
+                    <p><strong>Contract currently exists. Original record for&nbsp; prior year(s) has not been filed – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>A valid election was established in a prior year, the contract is “open”; records are submitted and referred to the TFSA Processing Unit (TPU) for future years, however, there are no records submitted for the same contract and contract holder for the in-between years.</p>
+                    <p>
+                        For example; a record is filed for 2009 establishing the election; no records submitted for 2010 or 2011; record submitted for 2012.<br />
+                        Review your client’s documents and submit required records as agreed upon with the TPU.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>
+                    <p><strong>SIN of deceased holder on the record is different from the SIN on the record of the deceased holder for the previous year(s)– Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>A succession record is received and the deceased holder’s social insurance number (SIN) on the record doesn’t match the SIN on the existing account for the deceased holder.</p>
+                    <p>This could happen if there are no accepted records that establish the deceased holder named on the record as the owner of that particular contract.&nbsp; This could also happen where a record was originally submitted and accepted without the succession information but later amended to be a succession.</p>
+                    <p>Review your client’s documents and submit an amended record with any required changes as agreed upon with the TPU.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>
+                    <p><strong>Calendar year-end FMV is invalid – must be a positive amount and entered in numeric &nbsp;format</strong></p>
+                    <p>
+                        The TFSA calendar year end fair market value (FMV) amount must be positive and reported in numeric format.<br />
+                        Review your client’s documents and submit an amended record with a valid calendar year end FMV.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>
+                    <p><strong>TFSA holder date of birth does not match CRA records. Ensure that the date shown on the record matches to this social insurance number and Surname.</strong></p>
+                    <p>The TFSA holder’s date of birth (DOB) on the record received does not match the DOB on CRA records.</p>
+                    <p>Review your client’s documents to ensure that the DOB shown on the record corresponds to the social insurance number (SIN) and surname for this particular client. If not correct, submit an amended record.</p>
+                    <p>Note: When a record has error code 72 in combination with error code 36 or 37, the problem is often the result of an incorrect SIN on the record.</p>
+                    <p>If you have confirmed with your client that the DOB on the record is correct and the DOB on CRA’s records is incorrect, &nbsp;advise him/her to contact us at:</p>
+                    <p><strong>1-800-959-8281</strong> (English) or <strong>1-800-959-7383 </strong>(French).</p>
+                    <p>The individual should identify themselves to the phone agent as a TFSA holder and that the reason they are calling is to correct their DOB with CRA.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>
+                    <p><strong>TFSA holder date of death on the record does not match CRA records</strong></p>
+                    <p>The TFSA holder’s date of death (DOD) entered on the record does not match the DOD on CRA records.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct DOD, if required.&nbsp; Otherwise, take the necessary action to have the DOD corrected on the CRA’s records.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>
+                    <p><strong>TFSA holder date of death is prior to 2009 or not in the current reporting period</strong></p>
+                    <p>The TFSA holder’s date of death (DOD) is outside the acceptable range: it either occurs before 2009, or later than the current business year (i.e. the year portion of the current business date).</p>
+                    <p>Examples of dates outside of the acceptable range:</p>
+                    <p>
+                        2003-10-26 (before 2009) or<br />
+                        2019-02-03 (if current business year is 2018)
+                    </p>
+                    <p>Review your client’s documents and submit an amended record removing or correcting the DOD, as required.&nbsp; Otherwise, cancel the record for this contract.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>
+                    <p><strong>TFSA close date entered on the record is not in the reporting year</strong></p>
+                    <p>The closed date entered on the record is not in the reporting year. If the closed date is entered, the year portion of the date must be equal to the reporting year.</p>
+                    <p>Review your client’s documents and submit an amended record with the correct closed date in the reporting year or delete the date if it was entered in error.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>
+                    <p><strong>TFSA holder date of death is missing. &nbsp;Ensure that both the date of death and FMV at Death are reported, if required</strong></p>
+                    <p>The holder’s date of death (DOD) has not been reported on the record but CRA records indicate that the holder is deceased.</p>
+                    <p>Review your client’s documents and submit an amended record with the required DOD and fair market value (FMV) at time of death. Otherwise, take the necessary action to have the CRA records corrected.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>
+                    <p><strong>&nbsp;SIN of deceased holder is invalid - A Temporary Tax Number (TTN) is not valid for TFSA</strong></p>
+                    <p>A temporary taxation number (TTN) is entered on the record for the deceased holder in a succession instead of a valid social insurance number (SIN).</p>
+                    <p>A TTN is a nine (9) digit number beginning with “01” or “03”. It is an internal number delivered by the CRA to a taxpayer who resides in Canada for income tax purposes but cannot obtain a SIN.</p>
+                    <p>Note: This error code no longer sets as of September 2010.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>
+                    <p><strong>SIN of deceased holder not found on CRA records</strong></p>
+                    <p>There is an election for the deceased holder in a succession and the social insurance number (SIN) entered on the record for this individual has not been found on CRA records.</p>
+                    <p>The number entered may be invalid or CRA has not yet received the information from the Social Insurance Register (SIR).</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the correct SIN</li>
+                        <li>cancel the record or</li>
+                        <li>contact the TFSA Processing Unit (TPU) to advise that the number is correct and the record should be reprocessed as originally submitted</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>
+                    <p><strong>SIN cross-referenced to ITN: ITN is not valid for TFSA election – Action as required by &nbsp;the TFSA Processing Unit</strong></p>
+                    <p>A record is received and referred to the TFSA Processing Unit (TPU) that reflects a social insurance number (SIN) that has been cross-referenced to an individual tax number (ITN). An ITN is not valid for a TFSA election.</p>
+                    <p>Review your client’s documents and either:</p>
+                    <ul class="lst-spcd">
+                        <li>submit an amended record with the valid SIN or</li>
+                        <li>cancel the record</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>
+                    <p><strong>Succession already exists for this account – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>The successor holder’s social insurance number (SIN) on record is different from the current existing successor holder’s SIN.&nbsp; Only one successor holder can be named per contract.</p>
+                    <p>Although changes were made to legislation (subsection 146.2(1) of the Income Tax Act (ITA)) and enacted on June 26, 2013 to change the definition of “holder” to allow for multiple successors over the lifetime of a particular contract, the CRA system is currently<u> </u>only able to accept one successor per contract.&nbsp; Also, the XML format of the record does not allow reporting of multiple successions in one <strong>year</strong> – there’s only one record per contract per year.</p>
+                    <p>At the present time, contact with the TFSA Processing Unit (TPU) may be necessary to resolve this error code.</p>
+                    <p>Review your client’s documents and submit an amended/cancel record as agreed upon with the TFSA Processing Unit (TPU).</p>
+                </td>
+            </tr>
+            <tr>
+                <td>81</td>
+                <td>
+                    <p><strong>Amended&nbsp; record is 100% duplicate of target record – Action as required by the &nbsp;TFSA Processing Unit</strong></p>
+                    <p>An amended record is received and referred to the TFSA Processing Unit (TPU) that is an exact duplicate of the targeted record.</p>
+                    <p>The TPU will review the record and take action to reject it only if, after telephone contact, it is determined that a change is required.&nbsp;</p>
+                    <p>Review your client’s documents and submit an amended record with any changes as agreed upon with the TPU.&nbsp; Where the record submitted was meant to be a duplicate of the previously submitted record, no further action is required.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>
+                    <p>
+                        <strong>Date of death on CRA records; TFSA close date required for this account. If record is greater than 2 years from the year of death for a trusteed account, cancel this record</strong>.<br />
+                        A record is received for a reporting year that is:
+                    </p>
+                    <ol class="lst-spcd">
+                        <li>
+                            equal to or greater than the year of death plus two and there is no closing date on the record<br /><br />
+                            OR<br />
+                        </li>
+                        <li>a record is received for a reporting year that is greater than the year of death plus two</li>
+                    </ol>
+                    <p>On the death of the holder of a trusteed TFSA, the TFSA continues to exist and the trust continues as an exempt trust for a period of time called the exempt period.&nbsp; The exempt period ends on the <strong>earlier</strong> of the date:</p>
+                    <ol class="lst-lwr-rmn">
+                        <li>when the trust ceases or</li>
+                        <li>December 31st of the year following the year of death.</li>
+                    </ol>
+                    <p>The TFSA tax exempt status ceases immediately after the exempt period.&nbsp; Consequently, unless the trust has actually ceased before the end of December 31, it will lose its exempt status on January 1st of the following year.&nbsp; For example, the exempt period for a trusteed account of a holder who passed away in 2015 ends as of December 31, 2016, unless the trust itself has ceased before the end of December 2016, the exempt status of the TFSA account ceases on January 1st of 2017.</p>
+                    <p>To resolve error code 82, an amended record with a closed date and closed indicator must be submitted.&nbsp; Any records rejected for subsequent year(s) with error code 82 must be cancelled once the closed date is provided for the previous year.&nbsp; If there are delays in the winding up of estates the financial institution can contact the TFSA Processing Unit (TPU) for assistance with error code 82.</p>
+                    <p>Issuers are expected to manage the estate accounts under the normal trust rules and any delay of estate closures must not affect the reporting for testamentary trusts from the end of the exempt period.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>83</td>
+                <td>
+                    <p><strong>Account was reported as closed in a previous year – the same contract number cannot be used for an account that has been closed</strong></p>
+                    <p>This error message will set when a record is received and the last accepted record (other than a cancel record) for the same contract and TFSA ID in any previous year indicates a closing date.</p>
+                    <p>If the contract was closed in the prior year and a record is received for the subsequent year for the same<u> </u>TFSA holder, there are two possible solutions.</p>
+                    <ol class="lst-spcd">
+                        <li>If the contract was actually closed in the prior year, you must submit a cancel record for the rejected record.</li>
+                        <li>If the contract was unintentionally closed in the prior year, you must submit an amended record for that prior year to modify the contract close indicator to “N” and remove the TFSA close date. You must submit original records for any in-between years that were not previously submitted (gap years).&nbsp;</li>
+                    </ol>
+                    <p>If the contract was closed in the prior year and a record is received for the subsequent year for a different TFSA holder, then you must submit a cancel record as this contract was already closed in the prior year. You must also provide a new contract number for this holder.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>84</td>
+                <td>
+                    <p><strong>New TFSA account indicator equals “N”; no election or unresolved records existing for previous years(s). Amend record to indicate “Y” or submit record(s) for the previous year(s).</strong></p>
+                    <p>This error message will set when a record is received indicating that it is not a new election (New TFSA account this year for this holder fieldis “N”), however, there is no election established in the previous year and no unresolved rejected records from previous years.&nbsp;</p>
+                    <p>If no election or unresolved records exist for previous years(s), amend and submit the record to indicate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Y” in the “New TFSA account this year for this holder” field or submit any required record(s) for the previous year(s).</p>
+                    <p>If the contract has been opened under a different TFSA ID in prior years, close the contract under the old TFSA ID and open it as a new contract under the new TFSA ID.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>_satellite.pageBottom();</script>
