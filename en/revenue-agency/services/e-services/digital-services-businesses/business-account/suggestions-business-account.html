@@ -1,0 +1,58 @@
+---
+layout: default
+title: "Suggestions for My Business Account"
+description: "Suggestions for My Business Account"
+subject: "Economics and Industry;Taxes"
+keywords: "Canada Revenue Agency, CRA, Electronic services for individuals, My Business Account"
+auth:
+  type: "contextual"
+  label: "Sign in"
+  labelExtended: "CRA sign in"
+  link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html"
+altLangPage: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-numeriques-entreprises/dossier-entreprise/suggestions-dossier-entreprise.html"
+dateModified: 2016-03-29
+dateIssued: 2006-09-25
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Taxes"
+    link: "https://www.canada.ca/en/services/taxes.html"
+  - title: "Digital services"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services.html"
+  - title: "Digital services for Businesses"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses.html"
+feedbackData:
+  section: "Suggestions for My Business Account"
+notedlinks:
+  - title: "Suggestions for My Business Account"
+    link: "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/suggestions-business-account.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/portal-help-pages-myba/index.html"
+---
+
+
+<p>Use the form below to send us your comments or report any problems you experienced using My Business Account.</p>
+<section class="alert alert alert-info">
+    <h2>Important</h2>
+    <ul>
+        <li><strong>Do not include personal information</strong> such as your social insurance number or tax information.</li>
+        <li>While we will not respond individually to comments, we do appreciate your feedback and will consider comments.</li>
+    </ul>
+</section>
+<form action="https://www.canada.ca/gc/services/notify" method="post">
+    <input name="emailTemplateservcanE" type="hidden" value="TUJBLU1ERS1HQGNyYS1hcmM=" />
+    <input name="emailTemplate" type="hidden" value="cdf80ee4-3d4d-4a8f-a815-01b22a4ead98" />
+    <input name="successUrl" type="hidden" value="https://www.canada.ca/content/canadasite/en/revenue-agency/form-submit-confirmation.html" />
+    <input name="failureUrl" type="hidden" value="https://www.canada.ca/content/canadasite/en/contact/failure.html" />
+    <div>
+        <input type="hidden" name="language" value="eng" />
+    </div>
+    <div id="type">
+        <div class="form-group">
+            <label class="required h3" for="fbmsg"><span class="field-name">Suggestion for improvement:</span> <strong class="required">(required)</strong></label>
+            <textarea class="form-control" cols="45" id="fbmsg" name="Suggestions" required="" rows="5"></textarea>
+        </div>
+    </div>
+    <input class="btn btn-primary" id="fbsbmt" name="fbsbmt" type="submit" value="Submit feedback" />
+    <input class="btn btn-default" type="reset" value="Reset" />
+</form>
+
+<script>_satellite.pageBottom();</script>
